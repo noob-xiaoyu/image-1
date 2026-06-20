@@ -1,2 +1,2 @@
-# image-1
+# image
 图片均来自pixiv

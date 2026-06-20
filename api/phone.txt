@@ -24,9 +24,6 @@ https://noob-xiaoyu.github.io/image-1/bg/phone/6C4955B757518051D0D315B3939BE23C.
 https://noob-xiaoyu.github.io/image-1/bg/phone/721BB6F2C7F39449FB8789BB2996919B.jpg
 https://noob-xiaoyu.github.io/image-1/bg/phone/90F4D028993BAEBC1615177587A23B08.jpg
 https://noob-xiaoyu.github.io/image-1/bg/phone/99AC9913F6A97B5F492B0F487B0F32E7.jpg
-https://noob-xiaoyu.github.io/image-1/bg/phone/hina_and_hoshino_blue_archive_drawn_by_kiroshi_sample-7cec8ec320e75fbaf3bc7edf62e7cdaa.jpg
-https://noob-xiaoyu.github.io/image-1/bg/phone/hoshino_blue_archive_drawn_by_petako_ptpt_k_sample-1c94d99976260e520f296970152cd4bb.jpg
-https://noob-xiaoyu.github.io/image-1/bg/phone/hoshino_blue_archive_drawn_by_user_mwju5424_sample-fdf399861c9c3144f9280a31da03e7e2.jpg
 https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779117673784_325.jpg
 https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779117685610_948.jpg
 https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779117936664_56.jpg
@@ -43,3 +40,6 @@ https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779122731387_891.png
 https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779330094540_306.jpg
 https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779330101849_534.png
 https://noob-xiaoyu.github.io/image-1/bg/phone/Image_1779330104607_992.png
+https://noob-xiaoyu.github.io/image-1/bg/phone/hina_and_hoshino_blue_archive_drawn_by_kiroshi_sample-7cec8ec320e75fbaf3bc7edf62e7cdaa.jpg
+https://noob-xiaoyu.github.io/image-1/bg/phone/hoshino_blue_archive_drawn_by_petako_ptpt_k_sample-1c94d99976260e520f296970152cd4bb.jpg
+https://noob-xiaoyu.github.io/image-1/bg/phone/hoshino_blue_archive_drawn_by_user_mwju5424_sample-fdf399861c9c3144f9280a31da03e7e2.jpg

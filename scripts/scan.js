@@ -159,16 +159,16 @@ fs.writeFileSync(
 console.log(`✓ api/phone.json — ${phoneImages.length} 张手机壁纸`);
 
 // 写入纯文本 API（每行一个绝对 URL，供 Halo 等主题使用）
-const pcTxt = pcImages.map((img) => img.absoluteUrl).join('\n') + '\n';
+const pcTxt = pcImages.map((img) => img.absoluteUrl).join('\n');
 fs.writeFileSync(path.join(API_DIR, 'pc.txt'), pcTxt, 'utf-8');
 console.log(`✓ api/pc.txt — ${pcImages.length} 个绝对 URL`);
 
-const phoneTxt = phoneImages.map((img) => img.absoluteUrl).join('\n') + '\n';
+const phoneTxt = phoneImages.map((img) => img.absoluteUrl).join('\n');
 fs.writeFileSync(path.join(API_DIR, 'phone.txt'), phoneTxt, 'utf-8');
 console.log(`✓ api/phone.txt — ${phoneImages.length} 个绝对 URL`);
 
 // 写入全部图片的 txt（供需要全部图片的场景）
-const allTxt = allImages.map((img) => img.absoluteUrl).join('\n') + '\n';
+const allTxt = allImages.map((img) => img.absoluteUrl).join('\n');
 fs.writeFileSync(path.join(API_DIR, 'all.txt'), allTxt, 'utf-8');
 console.log(`✓ api/all.txt — ${allImages.length} 个绝对 URL`);
 

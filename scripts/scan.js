@@ -11,6 +11,9 @@ const ROOT = path.resolve(__dirname, '..');
 const BG_DIR = path.join(ROOT, 'bg');
 const API_DIR = path.join(ROOT, 'api');
 
+// GitHub Pages 部署后的绝对路径前缀
+const BASE_URL = 'https://noob-xiaoyu.github.io/image-1';
+
 // ── JPEG 尺寸解析 ──────────────────────────────────
 // 读取 JPEG 文件头，找到 SOF0/SOF2 marker 获取宽高
 function getJpegSize(buffer) {
@@ -85,6 +88,7 @@ function scanCategory(category) {
       category: category,
       filename: filename,
       url: `bg/${category}/${filename}`,
+      absoluteUrl: `${BASE_URL}/bg/${category}/${filename}`,
       width: size ? size.width : 0,
       height: size ? size.height : 0,
       format: ext === '.png' ? 'png' : 'jpg',
@@ -153,5 +157,19 @@ fs.writeFileSync(
   'utf-8'
 );
 console.log(`✓ api/phone.json — ${phoneImages.length} 张手机壁纸`);
+
+// 写入纯文本 API（每行一个绝对 URL，供 Halo 等主题使用）
+const pcTxt = pcImages.map((img) => img.absoluteUrl).join('\n') + '\n';
+fs.writeFileSync(path.join(API_DIR, 'pc.txt'), pcTxt, 'utf-8');
+console.log(`✓ api/pc.txt — ${pcImages.length} 个绝对 URL`);
+
+const phoneTxt = phoneImages.map((img) => img.absoluteUrl).join('\n') + '\n';
+fs.writeFileSync(path.join(API_DIR, 'phone.txt'), phoneTxt, 'utf-8');
+console.log(`✓ api/phone.txt — ${phoneImages.length} 个绝对 URL`);
+
+// 写入全部图片的 txt（供需要全部图片的场景）
+const allTxt = allImages.map((img) => img.absoluteUrl).join('\n') + '\n';
+fs.writeFileSync(path.join(API_DIR, 'all.txt'), allTxt, 'utf-8');
+console.log(`✓ api/all.txt — ${allImages.length} 个绝对 URL`);
 
 console.log('\nDone! 运行完毕。');

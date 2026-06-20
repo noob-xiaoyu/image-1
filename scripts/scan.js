@@ -172,4 +172,41 @@ const allTxt = allImages.map((img) => img.absoluteUrl).join('\n');
 fs.writeFileSync(path.join(API_DIR, 'all.txt'), allTxt, 'utf-8');
 console.log(`✓ api/all.txt — ${allImages.length} 个绝对 URL`);
 
+// 写入随机跳转页面（访问时自动跳转到随机图片）
+function generateRedirectHtml(category, images) {
+  const urlsJson = JSON.stringify(images.map((img) => img.absoluteUrl));
+  return `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>随机${category === 'pc' ? 'PC' : '手机'}壁纸</title>
+<style>
+  body{background:#0d1117;color:#e6edf3;font-family:sans-serif;display:flex;align-items:center;justify-content:center;height:100vh;margin:0}
+  a{color:#58a6ff}
+</style>
+</head>
+<body>
+<p>🎲 随机跳转中...</p>
+<script>
+var urls = ${urlsJson};
+var pick = urls[Math.floor(Math.random() * urls.length)];
+window.location.replace(pick);
+</script>
+</body>
+</html>`;
+}
+
+const pcRedirect = generateRedirectHtml('pc', pcImages);
+fs.writeFileSync(path.join(API_DIR, 'pc.html'), pcRedirect, 'utf-8');
+console.log(`✓ api/pc.html — 随机跳转页面 (${pcImages.length} 张)`);
+
+const phoneRedirect = generateRedirectHtml('phone', phoneImages);
+fs.writeFileSync(path.join(API_DIR, 'phone.html'), phoneRedirect, 'utf-8');
+console.log(`✓ api/phone.html — 随机跳转页面 (${phoneImages.length} 张)`);
+
+const allRedirect = generateRedirectHtml('all', allImages);
+fs.writeFileSync(path.join(API_DIR, 'all.html'), allRedirect, 'utf-8');
+console.log(`✓ api/all.html — 随机跳转页面 (${allImages.length} 张)`);
+
 console.log('\nDone! 运行完毕。');

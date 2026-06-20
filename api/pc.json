@@ -2,11 +2,11 @@
   "name": "image-1 - Pixiv Wallpapers",
   "description": "PC 和手机壁纸图库，图片来自 Pixiv",
   "updated": "2026-06-20",
-  "count": 36,
+  "count": 37,
   "categories": {
     "pc": {
       "name": "PC 壁纸",
-      "count": 36
+      "count": 37
     }
   },
   "images": [
@@ -24,6 +24,17 @@
     {
       "id": "pc-2",
       "category": "pc",
+      "filename": "143902467_p0_master1200.jpg",
+      "url": "bg/pc/143902467_p0_master1200.jpg",
+      "absoluteUrl": "https://noob-xiaoyu.github.io/image-1/bg/pc/143902467_p0_master1200.jpg",
+      "width": 1200,
+      "height": 675,
+      "format": "jpg",
+      "fileSize": 779132
+    },
+    {
+      "id": "pc-3",
+      "category": "pc",
       "filename": "144755630_p0_master1200.jpg",
       "url": "bg/pc/144755630_p0_master1200.jpg",
       "absoluteUrl": "https://noob-xiaoyu.github.io/image-1/bg/pc/144755630_p0_master1200.jpg",
@@ -33,7 +44,7 @@
       "fileSize": 587391
     },
     {
-      "id": "pc-3",
+      "id": "pc-4",
       "category": "pc",
       "filename": "144802234_p0_master1200.jpg",
       "url": "bg/pc/144802234_p0_master1200.jpg",
@@ -44,7 +55,7 @@
       "fileSize": 723649
     },
     {
-      "id": "pc-4",
+      "id": "pc-5",
       "category": "pc",
       "filename": "144926731_p0_master1200.jpg",
       "url": "bg/pc/144926731_p0_master1200.jpg",
@@ -55,7 +66,7 @@
       "fileSize": 974788
     },
     {
-      "id": "pc-5",
+      "id": "pc-6",
       "category": "pc",
       "filename": "144934179_p0_master1200.jpg",
       "url": "bg/pc/144934179_p0_master1200.jpg",
@@ -66,7 +77,7 @@
       "fileSize": 597269
     },
     {
-      "id": "pc-6",
+      "id": "pc-7",
       "category": "pc",
       "filename": "144961460_p0_master1200.jpg",
       "url": "bg/pc/144961460_p0_master1200.jpg",
@@ -77,7 +88,7 @@
       "fileSize": 764076
     },
     {
-      "id": "pc-7",
+      "id": "pc-8",
       "category": "pc",
       "filename": "145175804_p0_master1200.jpg",
       "url": "bg/pc/145175804_p0_master1200.jpg",
@@ -88,7 +99,7 @@
       "fileSize": 579463
     },
     {
-      "id": "pc-8",
+      "id": "pc-9",
       "category": "pc",
       "filename": "145229515_p0_master1200.jpg",
       "url": "bg/pc/145229515_p0_master1200.jpg",
@@ -99,7 +110,7 @@
       "fileSize": 561446
     },
     {
-      "id": "pc-9",
+      "id": "pc-10",
       "category": "pc",
       "filename": "145324816_p0_master1200.jpg",
       "url": "bg/pc/145324816_p0_master1200.jpg",
@@ -110,7 +121,7 @@
       "fileSize": 446366
     },
     {
-      "id": "pc-10",
+      "id": "pc-11",
       "category": "pc",
       "filename": "145341451_p0_master1200.jpg",
       "url": "bg/pc/145341451_p0_master1200.jpg",
@@ -121,7 +132,7 @@
       "fileSize": 180408
     },
     {
-      "id": "pc-11",
+      "id": "pc-12",
       "category": "pc",
       "filename": "145342625_p0_master1200.jpg",
       "url": "bg/pc/145342625_p0_master1200.jpg",
@@ -132,7 +143,7 @@
       "fileSize": 1145384
     },
     {
-      "id": "pc-12",
+      "id": "pc-13",
       "category": "pc",
       "filename": "145342625_p11_master1200.jpg",
       "url": "bg/pc/145342625_p11_master1200.jpg",
@@ -143,7 +154,7 @@
       "fileSize": 1084536
     },
     {
-      "id": "pc-13",
+      "id": "pc-14",
       "category": "pc",
       "filename": "145342625_p2_master1200.jpg",
       "url": "bg/pc/145342625_p2_master1200.jpg",
@@ -154,7 +165,7 @@
       "fileSize": 1090975
     },
     {
-      "id": "pc-14",
+      "id": "pc-15",
       "category": "pc",
       "filename": "145342625_p3_master1200.jpg",
       "url": "bg/pc/145342625_p3_master1200.jpg",
@@ -165,7 +176,7 @@
       "fileSize": 1062411
     },
     {
-      "id": "pc-15",
+      "id": "pc-16",
       "category": "pc",
       "filename": "145342625_p4_master1200.jpg",
       "url": "bg/pc/145342625_p4_master1200.jpg",
@@ -176,7 +187,7 @@
       "fileSize": 1081041
     },
     {
-      "id": "pc-16",
+      "id": "pc-17",
       "category": "pc",
       "filename": "145342625_p5_master1200.jpg",
       "url": "bg/pc/145342625_p5_master1200.jpg",
@@ -187,7 +198,7 @@
       "fileSize": 961842
     },
     {
-      "id": "pc-17",
+      "id": "pc-18",
       "category": "pc",
       "filename": "145342625_p6_master1200.jpg",
       "url": "bg/pc/145342625_p6_master1200.jpg",
@@ -198,7 +209,7 @@
       "fileSize": 965622
     },
     {
-      "id": "pc-18",
+      "id": "pc-19",
       "category": "pc",
       "filename": "145342625_p7_master1200.jpg",
       "url": "bg/pc/145342625_p7_master1200.jpg",
@@ -209,7 +220,7 @@
       "fileSize": 1022059
     },
     {
-      "id": "pc-19",
+      "id": "pc-20",
       "category": "pc",
       "filename": "145342625_p9_master1200.jpg",
       "url": "bg/pc/145342625_p9_master1200.jpg",
@@ -220,7 +231,7 @@
       "fileSize": 1001306
     },
     {
-      "id": "pc-20",
+      "id": "pc-21",
       "category": "pc",
       "filename": "145472795_p0_master1200.jpg",
       "url": "bg/pc/145472795_p0_master1200.jpg",
@@ -231,7 +242,7 @@
       "fileSize": 522089
     },
     {
-      "id": "pc-21",
+      "id": "pc-22",
       "category": "pc",
       "filename": "145472795_p1_master1200.jpg",
       "url": "bg/pc/145472795_p1_master1200.jpg",
@@ -242,7 +253,7 @@
       "fileSize": 466638
     },
     {
-      "id": "pc-22",
+      "id": "pc-23",
       "category": "pc",
       "filename": "145474648_p0_master1200.jpg",
       "url": "bg/pc/145474648_p0_master1200.jpg",
@@ -253,7 +264,7 @@
       "fileSize": 707356
     },
     {
-      "id": "pc-23",
+      "id": "pc-24",
       "category": "pc",
       "filename": "145574877_p0_master1200.jpg",
       "url": "bg/pc/145574877_p0_master1200.jpg",
@@ -264,7 +275,7 @@
       "fileSize": 983578
     },
     {
-      "id": "pc-24",
+      "id": "pc-25",
       "category": "pc",
       "filename": "145763789_p0_master1200.jpg",
       "url": "bg/pc/145763789_p0_master1200.jpg",
@@ -275,7 +286,7 @@
       "fileSize": 1099076
     },
     {
-      "id": "pc-25",
+      "id": "pc-26",
       "category": "pc",
       "filename": "145772911_p0_master1200.jpg",
       "url": "bg/pc/145772911_p0_master1200.jpg",
@@ -286,7 +297,7 @@
       "fileSize": 629043
     },
     {
-      "id": "pc-26",
+      "id": "pc-27",
       "category": "pc",
       "filename": "145813556_p0_master1200.jpg",
       "url": "bg/pc/145813556_p0_master1200.jpg",
@@ -297,7 +308,7 @@
       "fileSize": 829967
     },
     {
-      "id": "pc-27",
+      "id": "pc-28",
       "category": "pc",
       "filename": "145930426-395d0b50e4516127b6fe0e28a5076ee2_p0.png",
       "url": "bg/pc/145930426-395d0b50e4516127b6fe0e28a5076ee2_p0.png",
@@ -308,7 +319,7 @@
       "fileSize": 1960913
     },
     {
-      "id": "pc-28",
+      "id": "pc-29",
       "category": "pc",
       "filename": "145978437_p0_master1200.jpg",
       "url": "bg/pc/145978437_p0_master1200.jpg",
@@ -319,7 +330,7 @@
       "fileSize": 894415
     },
     {
-      "id": "pc-29",
+      "id": "pc-30",
       "category": "pc",
       "filename": "146023995_p0_master1200.jpg",
       "url": "bg/pc/146023995_p0_master1200.jpg",
@@ -330,7 +341,7 @@
       "fileSize": 648012
     },
     {
-      "id": "pc-30",
+      "id": "pc-31",
       "category": "pc",
       "filename": "146040455_p0_master1200.jpg",
       "url": "bg/pc/146040455_p0_master1200.jpg",
@@ -341,7 +352,7 @@
       "fileSize": 978318
     },
     {
-      "id": "pc-31",
+      "id": "pc-32",
       "category": "pc",
       "filename": "146209317_p0_master1200.jpg",
       "url": "bg/pc/146209317_p0_master1200.jpg",
@@ -352,7 +363,7 @@
       "fileSize": 906185
     },
     {
-      "id": "pc-32",
+      "id": "pc-33",
       "category": "pc",
       "filename": "146213369_p0_master1200.jpg",
       "url": "bg/pc/146213369_p0_master1200.jpg",
@@ -363,7 +374,7 @@
       "fileSize": 968934
     },
     {
-      "id": "pc-33",
+      "id": "pc-34",
       "category": "pc",
       "filename": "Image_1779117680944_866.png",
       "url": "bg/pc/Image_1779117680944_866.png",
@@ -374,7 +385,7 @@
       "fileSize": 893440
     },
     {
-      "id": "pc-34",
+      "id": "pc-35",
       "category": "pc",
       "filename": "Image_1779117764435_978.jpg",
       "url": "bg/pc/Image_1779117764435_978.jpg",
@@ -385,7 +396,7 @@
       "fileSize": 231484
     },
     {
-      "id": "pc-35",
+      "id": "pc-36",
       "category": "pc",
       "filename": "Image_1779117778204_18.jpg",
       "url": "bg/pc/Image_1779117778204_18.jpg",
@@ -396,7 +407,7 @@
       "fileSize": 51679
     },
     {
-      "id": "pc-36",
+      "id": "pc-37",
       "category": "pc",
       "filename": "Image_1779120266275_80.png",
       "url": "bg/pc/Image_1779120266275_80.png",

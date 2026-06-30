@@ -2,11 +2,11 @@
   "name": "image-1 - Pixiv Wallpapers",
   "description": "PC 和手机壁纸图库，图片来自 Pixiv",
   "updated": "2026-06-30",
-  "count": 143,
+  "count": 144,
   "categories": {
     "pc": {
       "name": "PC 壁纸",
-      "count": 102
+      "count": 103
     },
     "phone": {
       "name": "手机壁纸",
@@ -1135,6 +1135,17 @@
       "height": 2160,
       "format": "png",
       "fileSize": 4021357
+    },
+    {
+      "id": "pc-103",
+      "category": "pc",
+      "filename": "未花角色曲封面3840x2160不带文字.png",
+      "url": "bg/pc/未花角色曲封面3840x2160不带文字.png",
+      "absoluteUrl": "https://noob-xiaoyu.github.io/image-1/bg/pc/未花角色曲封面3840x2160不带文字.png",
+      "width": 3840,
+      "height": 2160,
+      "format": "png",
+      "fileSize": 4493327
     },
     {
       "id": "phone-1",

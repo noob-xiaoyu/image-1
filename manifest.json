@@ -1,0 +1,19 @@
+{
+  "name": "image-1 - Pixiv Wallpapers",
+  "description": "PC 和手机壁纸图库，图片来自 Pixiv",
+  "updated": "2026-06-30",
+  "count": 0,
+  "categories": {
+    "pc": {
+      "name": "PC 壁纸",
+      "count": 0
+    },
+    "phone": {
+      "name": "手机壁纸",
+      "count": 0
+    }
+  },
+  "images": [
+    
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "name": "image-1",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pixiv Wallpapers 图片画廊",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.0",
+    "vite": "^6.3.0"
+  }
+}

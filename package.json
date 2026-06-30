@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "description": "Pixiv Wallpapers 图片画廊",
-  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
